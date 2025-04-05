@@ -1,4 +1,3 @@
-window.oncload = function () {
 let Victory_String;
 document.getElementById("bolg").onclick = function () {
     Victory_String = "You defeated the Lipi's";
@@ -10,4 +9,3 @@ document.getElementById("bolg").onclick = function () {
     document.getElementById("lg5").innerHTML = Victory_String;
     document.getElementById("bolg").innerHTML = "you ween!";
   };
-};
